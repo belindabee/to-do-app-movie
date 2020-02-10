@@ -1,0 +1,41 @@
+.product-container {
+    grid-column: 1/8;
+    margin-right: 2rem;
+}
+
+.product-container h1 {
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.card-movie {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-bottom: 2rem;
+    box-shadow: 0px 1px 5px 0px #676767; 
+}
+
+.movie-detail {
+    grid-column: 1/4;
+    padding: 0 1rem;
+}
+
+.movie-detail p {
+    margin: 0;
+}
+
+.movie-detail button {
+    background-color: lightsalmon;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.movie-detail button:hover {
+    background-color: #f3a847;
+}
+
+.movie-detail button:active {
+    border: none;
+}
